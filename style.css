@@ -1,0 +1,12 @@
+header {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, blue, transparent),
+    url(img/cerf-volant.jpg);
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 50vh;
+  }
+}
