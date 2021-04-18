@@ -1,6 +1,6 @@
 header {
   min-height: 100vh;
-  background: linear-gradient(to bottom, blue, transparent),
+  background: linear-gradient(to bottom, #0d47a1, transparent),
     url(img/cerf-volant.jpg);
   background-size: cover;
   background-position: center;
@@ -9,4 +9,8 @@ header {
   header {
     min-height: 50vh;
   }
+}
+.section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
 }
