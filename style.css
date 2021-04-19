@@ -1,3 +1,9 @@
+body {
+  background: #bbdefb;
+}
+h2 {
+  margin: 0;
+}
 header {
   min-height: 100vh;
   background: linear-gradient(to bottom, #0d47a1, transparent),
@@ -10,7 +16,18 @@ header {
     min-height: 50vh;
   }
 }
+/* PROJETS */
 .section {
   padding-top: 4vw;
   padding-bottom: 4vw;
+}
+.row .col.l4 {
+  width: 50%;
+}
+#projets > * {
+  margin-bottom: 4rem;
+}
+/* PARALLAX */
+.parallax-container {
+  height: 30vh;
 }
