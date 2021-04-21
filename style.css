@@ -1,5 +1,6 @@
 body {
-  background: #bbdefb;
+  background: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
 }
 h2 {
   margin: 0;
@@ -29,5 +30,9 @@ header {
 }
 /* PARALLAX */
 .parallax-container {
-  height: 30vh;
+  height: 50vh;
+}
+/* CONTACT FORM */
+[type="checkbox"] + span:not(.lever):before {
+  left: 6px;
 }

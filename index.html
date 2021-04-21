@@ -7,6 +7,9 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- font Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -42,11 +45,11 @@
     <section class="container section" id="projets">
         <div class="row valign-wrapper">
             <div class="col s12 l4">
-                <img src="img/volkan-audio.png" alt="" class="responsive-img materialboxed">
+                <img src="img/volkan-audio.png" alt="site de volkan audio" class="responsive-img materialboxed">
             </div>
             <div class="col s12 l6 offset-l1">
                 <h2 class="blue-text text-darken-4">volkan-audio</h2>
-                <p>wordpress / woocommerce</p>
+                <p class="red-text">wordpress / woocommerce</p>
                 <ul>
                     <li>RGPD</li>
                     <li>mise en place moyen de paiement Paypal, Stripe</li>
@@ -61,11 +64,11 @@
         </div>
         <div class="row valign-wrapper">
             <div class="col s12 l4">
-                <img src="img/mam-saperlipopette.png" alt="" class="responsive-img materialboxed">
+                <img src="img/mam-saperlipopette.png" alt="site de mam saperlipopette" class="responsive-img materialboxed">
             </div>
             <div class="col s12 l6 offset-l1">
                 <h2 class="blue-text text-darken-4">mam-saperlipopette</h2>
-                <p>php / laravel</p>
+                <p class="red-text">php / laravel</p>
                 <ul>
                     <li>configuration de l'hébergement, des boites mail</li>
                     <li>déploiement</li>
@@ -77,34 +80,16 @@
         </div>
         <div class="row valign-wrapper">
             <div class="col s12 l4">
-                <img src="" alt="" class="responsive-img materialboxed">
+                <img src="img/jeanherveroux.png" alt="site de jeanherveroux" class="responsive-img materialboxed">
             </div>
             <div class="col s12 l6 offset-l1">
                 <h2 class="blue-text text-darken-4">Jean-Herve Roux</h2>
-                <p>wordpress</p>
+                <p class="red-text">wordpress</p>
                 <a class="waves-effect waves-light btn blue darken-4" href="https://jeanherveroux.fr/" target="_blank">voir le
                     site</a>
             </div>
         </div>
-    
-    <!-- parallax -->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="img/poppy.jpg" alt="" class="responsive-img">
-        </div>
-    </div>
-    
-    <!-- Languages and Tools / tabs -->
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-    </div>
+    </section>
     
     <!-- parallax -->
     <div class="parallax-container">
@@ -114,32 +99,38 @@
     </div>
     
     <!-- contact form -->
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt
-            orci.</p>
-    </div>
+    <section class="section container scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="blue-text text-darken-4">Restons en contact</h2>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form>
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <div class="input-field">
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Je ne suis pas un robot</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field right">
+                        <button class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
     
     <!-- footer -->
 
@@ -152,6 +143,10 @@
             $('.sidenav').sidenav();
             $('.materialboxed').materialbox();
             $('.parallax').parallax();
+            $('.datepicker').datepicker({
+                disableWeekends: true,
+                yearRange: 1
+            });
         })
     </script>
 </body>
