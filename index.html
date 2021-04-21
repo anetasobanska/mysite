@@ -19,17 +19,25 @@
 </head>
 <body>
     <!-- navbar -->
-    <header>
+    <header id="acceuil">
         <nav class="nav-wrapper transparent">
             <div class="container">
-                <a href="#" class="brand-logo">sobanska</a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                <a href="#acceuil" class="brand-logo">sobanska</a>
+                <a href="#acceuil" class="sidenav-trigger" data-target="mobile-menu">
                     <i class="material-icons">menu</i>
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#">Acceuil</a></li>
-                    <li><a href="#">Projets</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://linkedin.com/in/aneta-sobanska-7b7913185" target="_blank" class="tooltipped btn-floating btn-small blue darken-4" data-position="bottom"
+                            data-tooltip="Linked In">
+                            <i class="fab fa-linkedin"></i>
+                        </a></li>
+                    <li><a href="https://github.com/anetasobanska" target="_blank" class="tooltipped btn-floating btn-small blue darken-4" data-position="bottom"
+                            data-tooltip="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a></li>
                 </ul>
                 <ul class="sidenav gray lighten-2" id="mobile-menu">
                     <li><a href="#">Acceuil</a></li>
@@ -85,6 +93,10 @@
             <div class="col s12 l6 offset-l1">
                 <h2 class="blue-text text-darken-4">Jean-Herve Roux</h2>
                 <p class="red-text">wordpress</p>
+                <ul>
+                    <li>configuration de l'hébergement</li>
+                    <li>déploiement</li>
+                </ul>
                 <a class="waves-effect waves-light btn blue darken-4" href="https://jeanherveroux.fr/" target="_blank">voir le
                     site</a>
             </div>
@@ -99,7 +111,7 @@
     </div>
     
     <!-- contact form -->
-    <section class="section container scrollspy" id="contact">
+    <section class="section container scrollspy"  id="contact">
         <div class="row">
             <div class="col s12 l5">
                 <h2 class="blue-text text-darken-4">Restons en contact</h2>
@@ -125,7 +137,7 @@
                         </p>
                     </div>
                     <div class="input-field right">
-                        <button class="btn">Submit</button>
+                        <button class="btn waves-effect waves-light btn blue darken-4">Envoyer</button>
                     </div>
                 </form>
             </div>
@@ -133,6 +145,27 @@
     </section>
     
     <!-- footer -->
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l5 s12">
+                    <h5>A propos de moi</h5>
+                    <p>France, Montpellier</p>
+                    <p></p>
+                </div>
+                <div class="col l5 offset-l2 s12">
+                    <h5 class="white-text">Me joindre</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://github.com/anetasobanska" target="_blank">GitHub</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://linkedin.com/in/aneta-sobanska-7b7913185" target="_blank">Linked In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2021 Portfolio Aneta Sobanska</div>
+        </div>
+    </footer>
 
     
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -143,10 +176,7 @@
             $('.sidenav').sidenav();
             $('.materialboxed').materialbox();
             $('.parallax').parallax();
-            $('.datepicker').datepicker({
-                disableWeekends: true,
-                yearRange: 1
-            });
+            $('.tooltipped').tooltip();
         })
     </script>
 </body>
