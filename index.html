@@ -117,15 +117,15 @@
                 <h2 class="blue-text text-darken-4">Restons en contact</h2>
             </div>
             <div class="col s12 l5 offset-l2">
-                <form>
+                <form name="contact" method="POST" data-netlify="true">
                     <div class="input-field">
                         <i class="material-icons prefix">email</i>
-                        <input type="email" id="email">
+                        <input type="email" id="email" name="email">
                         <label for="email">Your Email</label>
                     </div>
                     <div class="input-field">
                         <i class="material-icons prefix">message</i>
-                        <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+                        <textarea name="message" id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
                         <label for="message">Your Message</label>
                     </div>
                     <div class="input-field">
@@ -137,7 +137,7 @@
                         </p>
                     </div>
                     <div class="input-field right">
-                        <button class="btn waves-effect waves-light btn blue darken-4">Envoyer</button>
+                        <button type="submit" class="btn waves-effect waves-light btn blue darken-4">Envoyer</button>
                     </div>
                 </form>
             </div>
