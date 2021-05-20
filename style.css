@@ -28,6 +28,9 @@ header {
 #projets > * {
   margin-bottom: 4rem;
 }
+a {
+  margin-top: 5px;
+}
 /* PARALLAX */
 .parallax-container {
   height: 50vh;
