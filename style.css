@@ -5,17 +5,16 @@ body {
 h2 {
   margin: 0;
 }
-header {
-  min-height: 100vh;
-  background: linear-gradient(to bottom, #0d47a1, transparent),
-    url(img/cerf-volant.jpg);
-  background-size: cover;
-  background-position: center;
+hr {
+  width: 30%;
 }
 @media screen and (max-width: 670px) {
-  header {
-    min-height: 50vh;
+  nav.nav-wrapper {
+    width: 100%;
   }
+  /* header {
+    min-height: 50vh;
+  } */
 }
 /* PROJETS */
 .section {
@@ -38,4 +37,7 @@ a {
 /* CONTACT FORM */
 [type="checkbox"] + span:not(.lever):before {
   left: 6px;
+}
+.divider {
+  margin-bottom: 1.5rem;
 }
