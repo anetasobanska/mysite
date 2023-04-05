@@ -1,0 +1,76 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 5 version
+*/
+
+.list-item {
+  width: 5rem;
+}
+.project {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-block: 1rem;
+}
+.project:nth-child(2) {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.project:nth-child(2) > .project-description {
+  text-align: right;
+}
+.project:nth-child(2) > .image_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+}
+.project:nth-child(2) > .overlay {
+  left: auto;
+}
+#about-section {
+  padding: 2rem 2rem 5rem 2rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+}
+.little {
+  font-size: 1rem;
+}
+#projects-section {
+  padding: 2rem 2rem 3rem 2rem;
+}
+.project-title {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+.project-description li {
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+}
+.project-link {
+  width: 5rem;
+  margin: 1.5rem 1.5rem 0 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+.contact-wraper {
+  margin: 2rem 2rem 6rem 2rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}

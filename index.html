@@ -2,248 +2,233 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/5509b202ae.js"
       crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- font Montserrat -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!--Import Google Icon Font-->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <!-- Compiled and minified CSS -->
+    ></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      href="./css/normalize.css"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>sobanska</title>
+    <link
+      rel="stylesheet"
+      href="./css/base.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="(max-width: 769px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/mobile.css"
+      media="(max-width: 425px)"
+    />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"
+      integrity="sha512-pCPP9sfLW9T7EZiw725jUl+ux032sjGhFE+ZAx00C1iO55ZmZJWpfNGbDf2ZF5b0UqxRqSW548PbZEWmH+S7pA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
-    <!-- navbar -->
-    <header id="acceuil">
-      <nav class="nav-wrapper">
-        <div class="container">
-          <a href="#acceuil" class="brand-logo">sobanska</a>
-          <a href="#acceuil" class="sidenav-trigger" data-target="mobile-menu">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li>
-              <a href="#contact" class="waves-effect waves-light btn"
-                >Contact</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://linkedin.com/in/aneta-sobanska-7b7913185"
-                target="_blank"
-                class="btn-floating btn-small"
-                data-position="bottom"
-                data-tooltip="Linked In"
-              >
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/anetasobanska"
-                target="_blank"
-                class="btn-floating btn-small"
-                data-position="bottom"
-                data-tooltip="GitHub"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-            </li>
-          </ul>
-          <ul class="sidenav" id="mobile-menu">
-            <li><a href="#contact" class="sidenav-close">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+    <header id="header">
+      <div class="header-container container">
+        <ul class="menu">
+          <li class="list-item">
+            <a href="#about-section">about</a>
+          </li>
+          <li class="list-item">
+            <a href="#projects-section">projects</a>
+          </li>
+          <li class="list-item">
+            <a href="#contact-section">contact</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
-    <!-- projets / grid -->
-    <section class="container section scrollspy" id="projets">
-      <div class="row">
-        <div class="col s12 m6 l4">
-          <img
-            src="img/api-advert.png"
-            alt="site de api adverts"
-            class="responsive-img materialboxed"
-          />
-        </div>
-        <div class="col s12 m6 l6">
-          <h2 class="blue-grey-text">Best Adverts Ever</h2>
-          <p class="red-text">Express.js / React.js / TypeScript</p>
-          <ul>
-            <li>Front-End</li>
-            <li>Back-End</li>
-            <li>déploiement</li>
-          </ul>
-          <a
-            class="waves-effect waves-light btn"
-            href="https://soban.networkmanager.pl/"
-            target="_blank"
-            >voir le site</a
-          >
+    <section id="about-section">
+      <div class="about container">
+        <div>NICE TO</div>
+        <div>MEET YOU</div>
+        <div class="little">
+          I'm a frontend web developer based in <span>Carpentras, France</span>
         </div>
       </div>
-      <div class="row">
-        <div class="col s12 m6 l4">
-          <img
-            src="img/jeanherveroux.png"
-            alt="site de jeanherveroux"
-            class="responsive-img materialboxed"
-          />
-        </div>
-        <div class="col s12 m6 l6">
-          <h2 class="blue-grey-text">Jean-Herve Roux</h2>
-          <p class="red-text">React.js</p>
-          <ul>
-            <li>design</li>
-            <li>configuration de l'hébergement</li>
-            <li>déploiement</li>
-          </ul>
-          <a
-            class="waves-effect waves-light btn"
-            href="https://jeanherveroux.fr/"
-            target="_blank"
-            >voir le site</a
-          >
-          <a
-            class="waves-effect waves-light btn"
-            href="https://github.com/anetasobanska/gallery"
-            target="_blank"
-            >voir le code</a
-          >
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 m6 l4">
-          <img
-            src="img/volkan-audio.png"
-            alt="site de volkan audio"
-            class="responsive-img materialboxed"
-          />
-        </div>
-        <div class="col s12 m6 l6">
-          <h2 class="blue-grey-text">Volkan-Audio</h2>
-          <p class="red-text">WordPress / WooCommerce</p>
-          <ul>
-            <li>RGPD</li>
-            <li>mise en place moyen de paiement Paypal, Stripe</li>
-            <li>corriger la navigation dans recherche google</li>
-            <li>mise en place de l’inscription</li>
-            <li>mise en place formulaire de contact</li>
-            <li>réparation lien cassé</li>
-            <li>réparation mail</li>
-          </ul>
-          <a
-            class="waves-effect waves-light btn"
-            href="https://volkan-audio.com/"
-            target="_blank"
-            >voir le site</a
-          >
-        </div>
+      <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </section>
 
-    <!-- contact form -->
-    <section class="section container scrollspy" id="contact">
-      <div class="divider"></div>
-      <div class="row">
-        <div class="col s12 l5">
-          <h2 class="red-text accent-2">Restons en contact</h2>
-        </div>
-        <div class="col s12 l5 offset-l2">
-          <form name="contact" method="POST" data-netlify="true">
-            <div class="input-field">
-              <i class="material-icons prefix">email</i>
-              <input type="email" id="email" name="email" />
-              <label for="email">Email</label>
+    <section id="projects-section">
+      <div class="project-container container">
+        <div class="project">
+          <div class="image_wrapper">
+            <img
+              src="./img/Teamwork-of-tiny-people-with-gears-and-cogwheels.jpg"
+              alt="Teamwork of tiny people with gears and cogwheels"
+            />
+            <div class="overlay">
+              <a
+                class="project-link"
+                href="https://projekt-sklep.vercel.app/"
+                >LIVE</a
+              >
+              <a
+                class="project-link git"
+                href="https://github.com/anetasobanska/projekt-sklep"
+                >GITHUB</a
+              >
             </div>
-            <div class="input-field">
-              <i class="material-icons prefix">message</i>
-              <textarea
-                name="message"
-                id="message"
-                class="materialize-textarea"
-                cols="20"
-                rows="20"
-              ></textarea>
-              <label for="message">Message</label>
-            </div>
-            <div class="input-field right">
-              <button type="submit" class="btn waves-effect waves-light btn">
-                Envoyer
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-- footer -->
-    <footer class="page-footer grey darken-3">
-      <div class="container">
-        <div class="row">
-          <div class="col l5 s12">
-            <h5>A propos de moi</h5>
-            <p>France, Montpellier</p>
-            <p></p>
           </div>
-          <div class="col l5 offset-l2 s12">
-            <h5 class="white-text">Me joindre</h5>
+          <div class="project-description">
+            <p class="project-title">E-commerce</p>
             <ul>
-              <li>
-                <a
-                  class="grey-text text-lighten-3"
-                  href="https://github.com/anetasobanska"
-                  target="_blank"
-                  >GitHub</a
-                >
-              </li>
-              <li>
-                <a
-                  class="grey-text text-lighten-3"
-                  href="https://linkedin.com/in/aneta-sobanska-7b7913185"
-                  target="_blank"
-                  >Linked In</a
-                >
-              </li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Next.js</li>
+              <li>GraphQL</li>
+              <li>deploy</li>
+            </ul>
+            <p>in progres...</p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="image_wrapper">
+            <img
+              src="./img/jeanherveroux.jpg"
+              alt="Jean Herve Roux"
+            />
+            <div class="overlay">
+              <a
+                class="project-link"
+                href="https://www.jeanherveroux.fr/"
+                >LIVE</a
+              >
+            </div>
+          </div>
+          <div class="project-description">
+            <p class="project-title">Image Gallery</p>
+            <ul>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Express.js</li>
+              <li>deploy</li>
+              <li>hosting configuration</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project">
+          <div class="image_wrapper">
+            <img
+              src="./img/volkan-audio.jpg"
+              alt="Volkan Audio"
+            />
+            <div class="overlay">
+              <a
+                class="project-link"
+                href="https://volkan-audio.com/"
+                >LIVE</a
+              >
+            </div>
+          </div>
+          <div class="project-description">
+            <p class="project-title">Volkan-Audio</p>
+            <ul>
+              <li>WordPress / WooCommerce</li>
+              <li>deploy</li>
+              <li>hosting configuration</li>
+              <li>address email creation</li>
+              <li>payment system creation - stripe, paypal</li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="footer-copyright grey darken-4">
-        <div class="container center-align">
-          &copy; 2021 Portfolio Aneta Sobanska
+    </section>
+
+    <hr />
+
+    <section id="contact-section">
+      <div class="contact-wraper">
+        <div class="email-container">
+          <p>sannettka@gmail.com</p>
+          <p>Carpentras, France</p>
         </div>
+        <div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/aneta-sobanska/"
+              class="social-icon"
+            >
+              <i class="fa fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <p>Designed and developed by Aneta. Copyright © Aneta Sobanska 2023.</p>
       </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
     <script>
-      $(document).ready(function () {
-        $(".sidenav").sidenav();
-        $(".scrollspy").scrollSpy();
-        $(".materialboxed").materialbox();
-      });
+      const tl = gsap.timeline()
+
+      tl.from('.list-item', {
+        opacity: 0,
+        scale: 0,
+        ease: 'back',
+        delay: 1,
+        stagger: {
+          amount: 0.3,
+        },
+      })
+
+      tl.from(
+        '.about div',
+        1.8,
+        {
+          x: 1900,
+          duration: 0.8,
+          ease: 'back',
+          stagger: 0.1,
+          // repeat: -1,
+        },
+        '-=1.5'
+      )
     </script>
   </body>
 </html>
