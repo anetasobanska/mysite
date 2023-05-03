@@ -18,8 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
             duration: 0.8,
             ease: 'back',
             stagger: 0.1,
-            // repeat: -1,
-          },
-          '-=1.5'
+          }
         )
 })
