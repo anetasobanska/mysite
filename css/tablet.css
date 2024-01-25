@@ -41,3 +41,12 @@ img {
 .contact-wraper > .email-container > p {
   margin: 1rem 1rem 1rem 0;
 }
+#film-section {
+  padding: 2rem;
+}
+.film-list {
+  flex-basis: 20%;
+}
+iframe {
+  flex-basis: 70%;
+}

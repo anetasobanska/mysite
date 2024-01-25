@@ -134,7 +134,7 @@
 }
 #projects-section {
   margin: 0 auto;
-  padding: 4rem 4rem 10rem 4rem;
+  padding: 4rem 4rem 6rem 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -229,6 +229,39 @@ img {
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
+}
+
+#film-section {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.film-container {
+  display: flex;
+  justify-content: center;
+}
+.film-titre {
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  text-align: right;
+}
+.film-description {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  letter-spacing: 0.5rem;
+}
+.film-list {
+  flex-basis: 25%;
+  padding-right: 1rem;
+}
+.film-item {
+  list-style: none;
+  padding-block: 0.5rem;
 }
 #contact-section {
   margin: 0 auto;
