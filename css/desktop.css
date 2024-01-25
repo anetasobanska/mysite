@@ -263,6 +263,16 @@ img {
   list-style: none;
   padding-block: 0.5rem;
 }
+#no-code-section {
+  margin: 0 auto;
+  padding: 2rem;
+}
+.no-code-titre {
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  padding-block: 1rem;
+  text-align: left;
+}
 #contact-section {
   margin: 0 auto;
 }

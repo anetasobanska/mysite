@@ -50,3 +50,7 @@ img {
 iframe {
   flex-basis: 70%;
 }
+.no-code-titre {
+  text-align: right;
+  padding-bottom: 3rem;
+}

@@ -47,7 +47,8 @@
 #projects-section {
   padding: 2rem;
 }
-.project-title {
+.project-title,
+.no-code-title {
   font-size: 1.5rem;
   letter-spacing: 0.3rem;
 }
@@ -98,4 +99,16 @@ iframe {
 }
 .list-item {
   width: 95%;
+}
+.project--no-code {
+  flex-direction: column;
+}
+.project--no-code img {
+  width: 80%;
+}
+.no-code-titre {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  text-align: right;
+  padding-bottom: 2rem;
 }
